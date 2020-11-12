@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "montserrat-light";
+    src: url(../fonts/montserrat-light.ttf);
+}
+
+@font-face {
+    font-family: "montserrat-regular";
+    src: url(../fonts/montserrat-regular.ttf);
+}
+
+@font-face {
+    font-family: "raleway-regular";
+    src: url(../fonts/raleway-regular.ttf);
+}
+
+@font-face {
+    font-family: "raleway-medium";
+    src: url(../fonts/raleway-medium.ttf);
+}
+
+@font-face {
+    font-family: "raleway-semibold";
+    src: url(../fonts/raleway-semibold.ttf);
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url(../fonts/roboto-regular.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    box-sizing: border-box;
+}
+
+
+.header {
+    max-width: 1920px;
+    background: url(../img/bg_header.png) no-repeat;
+    margin: 0 auto;
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    margin-bottom: 285px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-txt {
+    font-family: "raleway-regular", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.svg-logo {
+    fill: #ffffff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-item {
+    margin-right: 24px;
+    display: inline;
+}
+
+.menu-item:last-child {
+    content: '';
+    margin-right: 54px;
+}
+
+.menu-item a {
+    font-family: "montserrat-light", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    transition: all 200ms;
+}
+
+.menu-item a:hover {
+    color: #C7B299;
+    
+}
+
+.header-icons {
+    display: flex;
+}
+
+.icon-cart {
+    background-image: url(../img/icon_cart.svg);
+    display: block;
+    width: 18px;
+    height: 24px;
+    margin-right: 28px;
+    opacity: 0.5;
+
+}
+
+.icon-cart:hover {
+    opacity: 1;
+    transition: all 200ms;
+}
+
+.icon-search {
+    background-image: url(../img/icon_search.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    
+}
+
+.icon-search:hover {
+    opacity: 1;
+    transition: all 200ms;
+}
+
+.header-arrow-r {
+    float: left;
+    fill: #ffffff;
+    margin-left: 160px;
+    padding-top: 35px;
+    opacity: 0.5;
+    
+}
+
+.header-arrow-r:hover {
+    opacity: 1;
+    fill: #D3C1AC;
+    transition: all 200ms;
+}
+
+.header-arrow-l {
+    float: right;
+    fill: #ffffff;
+    margin-right: 160px;
+    padding-top: 35px;
+    opacity: 0.5;
+}
+
+.header-arrow-l:hover {
+    fill: #D3C1AC;
+    opacity: 1;
+    transition: all 200ms;
+}
+
+
+.header-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+}
+
+
+.header-text h1 {
+    font-family: "raleway-semibold", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 52px;
+    margin-bottom: 19px;
+}
+
+.header-text h2 {
+    font-family: "raleway-medium", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+
+.header-text p {
+    font-family: "montserrat-regular", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.header-button {
+    width: 170px;
+    height: 53px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #998675;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 290px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "roboto-regular", "Arial", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header-button:hover {
+    color: #998675;
+    background-color: white;
+    border: 1px solid #c7b29a;
+    transition: 450ms;
+}
+
+.slider {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+  
+.slider-item {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    opacity: 0.5;
+  }
+  
+.slider-item:hover {
+    background-color: transparent;
+    border: 2px solid #D3C1AD;
+    transform: scale(1.2);
+  }
